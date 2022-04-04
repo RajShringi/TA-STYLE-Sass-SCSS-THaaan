@@ -154,6 +154,8 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 body {
@@ -171,6 +173,46 @@ a {
 
 .social-link-list a {
   margin-left: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+.btn-primary {
+  background: #dc3c45;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-secondary {
+  border: 2px solid #dc3c45;
+  color: #dc3c45;
+  background: #fff;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #dc3c45;
+}
+
+.btn-tertiary {
+  border: 2px solid #fff;
+  color: #fff;
+  background: #dc3c45;
+}
+
+.btn-tertiary:hover {
+  color: #dc3c45;
+  background: #fff;
 }
 
 .header-contacts {
@@ -245,5 +287,35 @@ a {
 
 .navbar .nav-list .sub-menu li {
   margin: 0;
+}
+
+.hero {
+  background: url(../assets/media/banner-1.jpg) no-repeat;
+  background-position: right center;
+  background-size: cover;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #1b1e24;
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.hero p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=style.css.map */
