@@ -1,2 +1,72 @@
+@import "variables";
 @import "reset";
 @import "general";
+
+// Header
+.header-contacts {
+  background: $primary;
+  padding: 1rem 0;
+  a {
+    color: #fff;
+    font-weight: 300;
+    &:hover {
+      color: $footer-primary;
+    }
+  }
+  .contact-list {
+    a {
+      margin-right: 2rem;
+    }
+  }
+}
+
+.navbar {
+  background: $secondary;
+  .logo {
+    color: $primary-text-color;
+    font-weight: 700;
+    font-size: 2rem;
+    span {
+      color: $primary;
+    }
+  }
+
+  .nav-list {
+    li {
+      margin-left: 2rem;
+      a {
+        color: $primary-text-color;
+        display: inline-block;
+        padding: 1.5rem 0.6rem;
+        width: 100%;
+        font-weight: 600;
+        &:hover {
+          background: $hover;
+          color: #fff;
+        }
+      }
+    }
+    .sub-menu-box {
+      position: relative;
+      &:hover {
+        .sub-menu {
+          display: inline-block;
+        }
+      }
+      i {
+        margin-left: 0.8rem;
+      }
+    }
+    .sub-menu {
+      position: absolute;
+      top: 100%;
+      left: 0%;
+      width: 140px;
+      display: none;
+      background: $secondary;
+      li {
+        margin: 0;
+      }
+    }
+  }
+}

@@ -13,6 +13,12 @@
   padding: 0 2rem;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 body {
   font-family: "Archivo", sans-serif;
   line-height: 1.5;
@@ -24,4 +30,10 @@ a {
 
 .full-width {
   max-width: 100%;
+}
+
+.social-link-list {
+  a {
+    margin-left: 2rem;
+  }
 }

@@ -144,6 +144,18 @@ table {
   padding: 0 2rem;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 body {
   font-family: "Archivo", sans-serif;
   line-height: 1.5;
@@ -155,5 +167,83 @@ a {
 
 .full-width {
   max-width: 100%;
+}
+
+.social-link-list a {
+  margin-left: 2rem;
+}
+
+.header-contacts {
+  background: #dc3c45;
+  padding: 1rem 0;
+}
+
+.header-contacts a {
+  color: #fff;
+  font-weight: 300;
+}
+
+.header-contacts a:hover {
+  color: #343a40;
+}
+
+.header-contacts .contact-list a {
+  margin-right: 2rem;
+}
+
+.navbar {
+  background: #f8f9fa;
+}
+
+.navbar .logo {
+  color: #1b1e24;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.navbar .logo span {
+  color: #dc3c45;
+}
+
+.navbar .nav-list li {
+  margin-left: 2rem;
+}
+
+.navbar .nav-list li a {
+  color: #1b1e24;
+  display: inline-block;
+  padding: 1.5rem 0.6rem;
+  width: 100%;
+  font-weight: 600;
+}
+
+.navbar .nav-list li a:hover {
+  background: #f47a7c;
+  color: #fff;
+}
+
+.navbar .nav-list .sub-menu-box {
+  position: relative;
+}
+
+.navbar .nav-list .sub-menu-box:hover .sub-menu {
+  display: inline-block;
+}
+
+.navbar .nav-list .sub-menu-box i {
+  margin-left: 0.8rem;
+}
+
+.navbar .nav-list .sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 140px;
+  display: none;
+  background: #f8f9fa;
+}
+
+.navbar .nav-list .sub-menu li {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
