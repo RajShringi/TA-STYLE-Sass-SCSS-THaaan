@@ -280,6 +280,46 @@ h6 {
   margin-bottom: 1rem;
 }
 
+footer {
+  background: #343a40;
+}
+
+footer .footer-heading {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+footer .footer-heading h6 {
+  color: #bbbbbc;
+}
+
+footer .footer-heading a {
+  color: #8a8a8b;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+footer .footer-heading a:hover {
+  color: #f47a7c;
+}
+
+footer .footer-heading .social-link-list a {
+  margin-left: 0;
+  margin-right: 2rem;
+}
+
+footer .title {
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+footer .title span {
+  color: #bbbbbc;
+}
+
 .header-contacts {
   background: #dc3c45;
   padding: 1rem 0;
