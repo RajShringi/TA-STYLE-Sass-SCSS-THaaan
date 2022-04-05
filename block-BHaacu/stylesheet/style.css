@@ -320,6 +320,16 @@ footer .title span {
   color: #bbbbbc;
 }
 
+.about-hero {
+  background: #dc3c45;
+  padding: 2rem 0;
+}
+
+.about-hero .title h2,
+.about-hero .title p {
+  color: #fff;
+}
+
 .header-contacts {
   background: #dc3c45;
   padding: 1rem 0;
