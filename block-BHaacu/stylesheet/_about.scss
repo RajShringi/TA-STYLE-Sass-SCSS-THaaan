@@ -27,3 +27,21 @@
     flex: 0 1 45%;
   }
 }
+
+.company-vision-section {
+  i {
+    font-size: 3rem;
+    color: $footer-primary;
+    &:hover {
+      color: $hover;
+    }
+  }
+  .company-vision-div {
+    margin-bottom: 1rem;
+    h6 {
+      font-weight: 400;
+      margin-bottom: 0;
+      color: $primary-text-color;
+    }
+  }
+}
