@@ -338,13 +338,13 @@ footer .title span {
   color: #bbbbbc;
 }
 
-.about-hero {
+.other-page-hero {
   background: #dc3c45;
   padding: 2rem 0;
 }
 
-.about-hero .title h2,
-.about-hero .title p {
+.other-page-hero .title h2,
+.other-page-hero .title p {
   color: #fff;
 }
 
