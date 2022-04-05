@@ -28,3 +28,18 @@
     }
   }
 }
+
+.faq {
+  .title {
+    h3 {
+      color: $primary-text-color;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .faqs {
+    .card {
+      text-align: left;
+    }
+  }
+}

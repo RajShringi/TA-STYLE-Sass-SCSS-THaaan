@@ -281,9 +281,6 @@ h6 {
 }
 
 .card {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 30%;
-          flex: 0 1 30%;
   padding: 1rem;
   text-align: center;
   border-radius: 8px;
@@ -458,6 +455,15 @@ footer .title span {
 
 .price-container .card .license {
   color: #8a9197;
+}
+
+.faq .title h3 {
+  color: #1b1e24;
+  margin-bottom: 2rem;
+}
+
+.faq .faqs .card {
+  text-align: left;
 }
 
 .header-contacts {
