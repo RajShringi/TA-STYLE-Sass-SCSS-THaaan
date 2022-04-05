@@ -23,3 +23,25 @@
     border: 1px solid #eaeef1;
   }
 }
+
+.deals {
+  background: $primary;
+  padding: 2rem 0;
+  color: #fff;
+  .flex {
+    align-items: baseline;
+  }
+  .deals-div {
+    h6 {
+      margin: 0;
+    }
+    span {
+      margin: 0 1rem;
+      font-size: 1.5rem;
+    }
+    p {
+      color: #fff;
+      font-size: 0.9rem;
+    }
+  }
+}

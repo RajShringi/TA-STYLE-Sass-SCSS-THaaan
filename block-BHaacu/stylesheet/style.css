@@ -483,6 +483,32 @@ footer .title span {
   border: 1px solid #eaeef1;
 }
 
+.deals {
+  background: #dc3c45;
+  padding: 2rem 0;
+  color: #fff;
+}
+
+.deals .flex {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.deals .deals-div h6 {
+  margin: 0;
+}
+
+.deals .deals-div span {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+
+.deals .deals-div p {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
 .header-contacts {
   background: #dc3c45;
   padding: 1rem 0;
