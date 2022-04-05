@@ -446,4 +446,20 @@ h6 {
       -ms-flex: 0 1 45%;
           flex: 0 1 45%;
 }
+
+.clients {
+  background: #f8f9fa;
+}
+
+.clients .client-img-container img {
+  max-width: 130px;
+  width: 100%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.clients .client-img-container img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
 /*# sourceMappingURL=style.css.map */

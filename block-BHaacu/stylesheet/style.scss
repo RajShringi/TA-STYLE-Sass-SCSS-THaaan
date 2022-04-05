@@ -141,3 +141,17 @@
     flex: 0 1 45%;
   }
 }
+
+.clients {
+  background: $secondary;
+  .client-img-container {
+    img {
+      max-width: 130px;
+      width: 100%;
+      filter: grayscale(1);
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+  }
+}
