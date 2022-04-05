@@ -409,6 +409,16 @@ footer .title span {
   font-size: 0.8rem;
 }
 
+.about-solution .title {
+  max-width: 730px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-solution .title h2 {
+  margin-bottom: 2rem;
+}
+
 .header-contacts {
   background: #dc3c45;
   padding: 1rem 0;
