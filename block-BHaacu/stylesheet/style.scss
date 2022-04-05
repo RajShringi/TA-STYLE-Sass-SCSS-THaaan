@@ -127,3 +127,17 @@
     color: #fff;
   }
 }
+
+.leader {
+  padding-top: 6rem;
+  article {
+    flex: 0 1 45%;
+    padding: 1rem 3.5rem;
+    h3 {
+      text-transform: none;
+    }
+  }
+  .leader-img-container {
+    flex: 0 1 45%;
+  }
+}

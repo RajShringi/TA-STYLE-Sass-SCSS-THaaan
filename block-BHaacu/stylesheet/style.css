@@ -425,4 +425,25 @@ h6 {
 .quote .quote-div p {
   color: #fff;
 }
+
+.leader {
+  padding-top: 6rem;
+}
+
+.leader article {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+          flex: 0 1 45%;
+  padding: 1rem 3.5rem;
+}
+
+.leader article h3 {
+  text-transform: none;
+}
+
+.leader .leader-img-container {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+          flex: 0 1 45%;
+}
 /*# sourceMappingURL=style.css.map */
