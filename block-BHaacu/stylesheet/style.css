@@ -164,6 +164,12 @@ table {
           flex: 0 1 20%;
 }
 
+.flex-30 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+}
+
 .flex-45 {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 45%;
@@ -417,6 +423,41 @@ footer .title span {
 
 .about-solution .title h2 {
   margin-bottom: 2rem;
+}
+
+.price .title {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.price-container {
+  margin-top: 3rem;
+}
+
+.price-container .card {
+  font-size: 0.9rem;
+}
+
+.price-container .card header {
+  margin-bottom: 2rem;
+}
+
+.price-container .card header .card-title {
+  color: #1b1e24;
+  font-size: 1rem;
+}
+
+.price-container .card p {
+  color: #343a40;
+}
+
+.price-container .card .includes {
+  color: #1b1e24;
+}
+
+.price-container .card .license {
+  color: #8a9197;
 }
 
 .header-contacts {

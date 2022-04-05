@@ -1,0 +1,30 @@
+.price {
+  .title {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.price-container {
+  margin-top: 3rem;
+  .card {
+    font-size: 0.9rem;
+    header {
+      margin-bottom: 2rem;
+      .card-title {
+        color: $primary-text-color;
+        font-size: 1rem;
+      }
+    }
+    p {
+      color: $footer-primary;
+    }
+    .includes {
+      color: $primary-text-color;
+    }
+    .license {
+      color: $secondary-text-color;
+    }
+  }
+}
