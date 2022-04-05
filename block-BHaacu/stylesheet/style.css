@@ -414,4 +414,15 @@ h6 {
       -ms-flex: 0 1 45%;
           flex: 0 1 45%;
 }
+
+.quote {
+  background: #dc3c45;
+  padding: 2rem 0;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.quote .quote-div p {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
