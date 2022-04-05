@@ -86,3 +86,18 @@
     text-transform: capitalize;
   }
 }
+
+.solutions {
+  background: $secondary;
+  .title {
+    max-width: 730px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  h2 {
+    margin-bottom: 1rem;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+}
