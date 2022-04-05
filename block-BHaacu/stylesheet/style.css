@@ -393,4 +393,23 @@ h6 {
 .solutions p {
   margin-bottom: 1rem;
 }
+
+.team article {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+          flex: 0 1 45%;
+  text-align: center;
+  padding: 1rem 3.5rem;
+}
+
+.team article img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.team .team-img-container {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+          flex: 0 1 45%;
+}
 /*# sourceMappingURL=style.css.map */
