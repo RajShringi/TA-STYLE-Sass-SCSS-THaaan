@@ -515,6 +515,48 @@ footer .title span {
   margin: 0 auto;
 }
 
+.contact-details .title {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.contact-details .contact-type {
+  text-align: center;
+}
+
+.contact-details .contact-type div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f3f3f6;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #dc3c45;
+}
+
+.contact-details .contact-type h6 {
+  font-weight: 400;
+  margin-bottom: 0.1rem;
+  margin-top: 1rem;
+}
+
+.contact-details .contact-type address,
+.contact-details .contact-type p {
+  font-size: 0.9rem;
+  color: #1b1e24;
+  font-weight: 300;
+}
+
 .header-contacts {
   background: #dc3c45;
   padding: 1rem 0;

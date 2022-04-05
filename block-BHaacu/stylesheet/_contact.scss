@@ -1,0 +1,33 @@
+.contact-details {
+  .title {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .contact-type {
+    text-align: center;
+    div {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      background: #f3f3f6;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      font-size: 2rem;
+      color: $primary;
+    }
+    h6 {
+      font-weight: 400;
+      margin-bottom: 0.1rem;
+      margin-top: 1rem;
+    }
+    address,
+    p {
+      font-size: 0.9rem;
+      color: $primary-text-color;
+      font-weight: 300;
+    }
+  }
+}
