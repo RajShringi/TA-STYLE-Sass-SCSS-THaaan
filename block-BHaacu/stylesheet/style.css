@@ -167,8 +167,37 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: #8a9197;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #1b1e24;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
 .full-width {
   max-width: 100%;
+}
+
+.padding {
+  padding: 6rem 0;
 }
 
 .social-link-list a {
@@ -213,6 +242,35 @@ a {
 .btn-tertiary:hover {
   color: #dc3c45;
   background: #fff;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.card h6 {
+  color: #1b1e24;
+}
+
+.card p {
+  margin-bottom: 1rem;
 }
 
 .header-contacts {
@@ -304,13 +362,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   color: #1b1e24;
-}
-
-.hero h1 {
-  font-weight: 800;
-  font-size: 4rem;
-  text-transform: uppercase;
-  line-height: 1.1;
 }
 
 .hero p {
