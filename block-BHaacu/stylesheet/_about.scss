@@ -8,3 +8,22 @@
     }
   }
 }
+
+.about {
+  span {
+    color: $primary;
+    font-size: 0.9rem;
+  }
+  .container {
+    font-size: 0;
+  }
+  article {
+    font-size: 1rem;
+    padding: 1rem 3.5rem;
+
+    flex: 0 1 45%;
+  }
+  .leader-img-container {
+    flex: 0 1 45%;
+  }
+}

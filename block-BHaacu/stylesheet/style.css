@@ -330,6 +330,29 @@ footer .title span {
   color: #fff;
 }
 
+.about span {
+  color: #dc3c45;
+  font-size: 0.9rem;
+}
+
+.about .container {
+  font-size: 0;
+}
+
+.about article {
+  font-size: 1rem;
+  padding: 1rem 3.5rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+          flex: 0 1 45%;
+}
+
+.about .leader-img-container {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+          flex: 0 1 45%;
+}
+
 .header-contacts {
   background: #dc3c45;
   padding: 1rem 0;
