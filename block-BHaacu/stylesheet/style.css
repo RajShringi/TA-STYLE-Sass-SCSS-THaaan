@@ -390,6 +390,25 @@ footer .title span {
   color: #1b1e24;
 }
 
+.about-team {
+  background: #f8f9fa;
+}
+
+.about-team .team-member {
+  text-align: center;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-team .team-member p {
+  color: #1b1e24;
+}
+
+.about-team .team-member .role {
+  color: #dc3c45;
+  font-size: 0.8rem;
+}
+
 .header-contacts {
   background: #dc3c45;
   padding: 1rem 0;

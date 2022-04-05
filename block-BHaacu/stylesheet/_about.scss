@@ -45,3 +45,18 @@
     }
   }
 }
+
+.about-team {
+  background: $secondary;
+  .team-member {
+    text-align: center;
+    box-shadow: 0 0 4px rgba($color: #000000, $alpha: 0.1);
+    p {
+      color: $primary-text-color;
+    }
+    .role {
+      color: $primary;
+      font-size: 0.8rem;
+    }
+  }
+}
