@@ -307,9 +307,6 @@ footer {
 }
 
 footer .footer-heading {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 20%;
-          flex: 0 1 20%;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -364,6 +361,11 @@ footer .title span {
 .about article {
   font-size: 1rem;
   padding: 1rem 3.5rem;
+}
+
+.bars,
+#toggle {
+  display: none;
 }
 
 .company-vision-section i {
@@ -428,11 +430,11 @@ footer .title span {
   font-size: 0.9rem;
 }
 
-.price-container .card header {
+.price-container .card .price-header {
   margin-bottom: 2rem;
 }
 
-.price-container .card header .card-title {
+.price-container .card .price-header .card-title {
   color: #1b1e24;
   font-size: 1rem;
 }
@@ -606,6 +608,149 @@ footer .title span {
   text-align: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 720px;
+  }
+  header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+  }
+  .header-contacts {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+  .navbar {
+    height: 9rem;
+    width: 100%;
+  }
+  nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background: rgba(220, 60, 69, 0.9);
+  }
+  nav .nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 7rem;
+    font-size: 1.3rem;
+  }
+  nav .nav-list .sub-menu {
+    z-index: 1;
+  }
+  input[type="checkbox"]:checked ~ nav {
+    display: block;
+  }
+  .bars {
+    display: inline-block;
+    background-color: rgba(220, 60, 69, 0.8);
+    color: #fff;
+    padding: 0.2rem 0.6rem;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    position: fixed;
+    right: 2rem;
+    top: 5rem;
+    z-index: 99;
+  }
+  .logo {
+    position: fixed;
+    z-index: 99;
+    left: 2rem;
+    top: 5rem;
+  }
+  .hero {
+    background-position: 70% !important;
+  }
+  .md-flex-100 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    margin-bottom: 1.5rem;
+  }
+  .md-flex-45 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 45%;
+            flex: 0 1 45%;
+    margin-bottom: 1.5rem;
+  }
+  .none {
+    display: none;
+  }
+  .clients .client-img-container {
+    text-align: center;
+  }
+  .clients .client-img-container img {
+    max-width: 80px !important;
+    width: 100%;
+  }
+  .footer-heading .social-link-list {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .other-page-hero {
+    padding-top: 12rem;
+  }
+  .deals .flex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+  .container {
+    max-width: 540px;
+  }
+  .navbar {
+    height: 10rem;
+  }
+  .header-contacts .flex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header-contacts .social-link-list a,
+  .header-contacts .contact-list a {
+    margin: 0 1rem;
+  }
+  .bars,
+  .logo {
+    top: 6.5rem;
+  }
+}
+
 .header-contacts {
   background: #dc3c45;
   padding: 1rem 0;
@@ -748,20 +893,11 @@ footer .title span {
 }
 
 .leader article {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 45%;
-          flex: 0 1 45%;
   padding: 1rem 3.5rem;
 }
 
 .leader article h3 {
   text-transform: none;
-}
-
-.leader .leader-img-container {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 45%;
-          flex: 0 1 45%;
 }
 
 .clients {

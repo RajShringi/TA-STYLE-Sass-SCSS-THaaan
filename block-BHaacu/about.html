@@ -43,27 +43,33 @@
       <div class="navbar">
         <div class="container flex">
           <a href="#" class="logo"><span>Uni</span>TECH</a>
-          <ul class="nav-list flex">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li class="sub-menu-box">
-              <a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="error.html">404 page</a></li>
-              </ul>
-            </li>
-            <li class="sub-menu-box">
-              <a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Blog Single</a></li>
-              </ul>
-            </li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
+          <label class="bars" for="toggle"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+          <input type="checkbox" id="toggle" />
+          <nav>
+            <ul class="nav-list flex">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li class="sub-menu-box">
+                <a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="sub-menu">
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="error.html">404 page</a></li>
+                </ul>
+              </li>
+              <li class="sub-menu-box">
+                <a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="sub-menu">
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Blog Single</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
@@ -79,7 +85,7 @@
 
       <section class="about padding">
         <div class="container flex">
-          <article class="flex-45">
+          <article class="flex-45 md-flex-100">
             <span>About Us</span>
             <h3>
               We are a Industry leader in technical and consulting services
@@ -93,7 +99,7 @@
               adipisicing elit. Adipisci, veritatis!
             </p>
           </article>
-          <div class="leader-img-container flex-45">
+          <div class="leader-img-container flex-45 md-flex-100">
             <img
               class="full-width"
               src="assets/media/img-woman-1.jpg"
@@ -105,14 +111,14 @@
 
       <section class="company-vision padding">
         <div class="container flex">
-          <div class="img-container flex-45">
+          <div class="img-container flex-45 md-flex-100">
             <img
               src="assets/media/vision.svg"
               alt="vision"
               class="full-width"
             />
           </div>
-          <section class="company-vision-section flex-45">
+          <section class="company-vision-section flex-45 md-flex-100">
             <div class="flex company-vision-div">
               <div class="flex-20">
                 <i class="fa-solid fa-rocket"></i>
@@ -165,7 +171,7 @@
             <p>We are ready to grow with your business</p>
           </div>
           <div class="flex">
-            <div class="team-member flex-20">
+            <div class="team-member flex-20 md-flex-100">
               <img
                 class="full-width"
                 src="assets/media/team1.jpg"
@@ -177,7 +183,7 @@
               </div>
             </div>
 
-            <div class="team-member flex-20">
+            <div class="team-member flex-20 md-flex-100">
               <img
                 class="full-width"
                 src="assets/media/team2.jpg"
@@ -189,7 +195,7 @@
               </div>
             </div>
 
-            <div class="team-member flex-20">
+            <div class="team-member flex-20 md-flex-100">
               <img
                 class="full-width"
                 src="assets/media/team3.jpg"
@@ -201,7 +207,7 @@
               </div>
             </div>
 
-            <div class="team-member flex-20">
+            <div class="team-member flex-20 md-flex-100">
               <img
                 class="full-width"
                 src="assets/media/team4.jpg"
@@ -261,12 +267,12 @@
               />
             </div>
 
-            <div class="client-img-container">
+            <div class="client-img-container md-flex-100 none">
               <img src="assets/media/oracle.png" alt=/oracle" class="full-width"
               />
             </div>
 
-            <div class="client-img-container">
+            <div class="client-img-container md-flex-100 none">
               <img
                 src="assets/media/airbnb.png"
                 alt="airbnb"
@@ -274,7 +280,7 @@
               />
             </div>
 
-            <div class="client-img-container">
+            <div class="client-img-container md-flex-100 none">
               <img
                 src="assets/media/patio.png"
                 alt="patio"
@@ -287,7 +293,7 @@
     </main>
     <footer>
       <div class="container flex">
-        <ul class="footer-heading">
+        <ul class="footer-heading flex-20 md-flex-100">
           <li><h6>Reach us</h6></li>
           <li>
             <a href="#"
@@ -307,7 +313,7 @@
           </li>
         </ul>
 
-        <ul class="footer-heading">
+        <ul class="footer-heading flex-20 md-flex-45">
           <li><h6>Site links</h6></li>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
@@ -316,7 +322,7 @@
           <li><a href="pricing.html">Pricing</a></li>
         </ul>
 
-        <ul class="footer-heading">
+        <ul class="footer-heading flex-20 md-flex-45">
           <li><h6>Qucik links</h6></li>
           <li><a href="#">Blog</a></li>
           <li><a href="contact.html">Contact Us</a></li>
@@ -324,7 +330,7 @@
           <li><a href="#">Terms & Conditions</a></li>
         </ul>
 
-        <ul class="footer-heading">
+        <ul class="footer-heading flex-20 md-flex-100">
           <li><h6>Follow us</h6></li>
           <li>
             <ul class="social-link-list flex">

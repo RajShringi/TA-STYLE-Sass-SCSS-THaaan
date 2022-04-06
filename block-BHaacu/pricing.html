@@ -43,27 +43,33 @@
       <div class="navbar">
         <div class="container flex">
           <a href="#" class="logo"><span>Uni</span>TECH</a>
-          <ul class="nav-list flex">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li class="sub-menu-box">
-              <a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="error.html">404 page</a></li>
-              </ul>
-            </li>
-            <li class="sub-menu-box">
-              <a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
-              <ul class="sub-menu">
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Blog Single</a></li>
-              </ul>
-            </li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
+          <label class="bars" for="toggle"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+          <input type="checkbox" id="toggle" />
+          <nav>
+            <ul class="nav-list flex">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li class="sub-menu-box">
+                <a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="sub-menu">
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="error.html">404 page</a></li>
+                </ul>
+              </li>
+              <li class="sub-menu-box">
+                <a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="sub-menu">
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Blog Single</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
@@ -88,12 +94,12 @@
             </p>
           </div>
           <div class="price-container flex">
-            <div class="card flex-30">
-              <header>
+            <div class="card flex-30 md-flex-100">
+              <div class="price-header">
                 <p class="card-title">Free</p>
                 <h2>$0</h2>
                 <p class="license">Single License</p>
-              </header>
+              </div>
               <p class="includes">Includes:</p>
               <p>- Single Site</p>
               <p>- Cloud Storage</p>
@@ -102,12 +108,12 @@
               <a href="#" class="btn btn-secondary">Download Now</a>
             </div>
 
-            <div class="card flex-30">
-              <header>
+            <div class="card flex-30 md-flex-100">
+              <div class="price-header">
                 <p class="card-title">Basic</p>
                 <h2>$12</h2>
                 <p class="license">Multi License</p>
-              </header>
+              </div>
               <p class="includes">Includes:</p>
               <p>- Multi Site</p>
               <p>- Cloud Storage</p>
@@ -116,12 +122,12 @@
               <a href="#" class="btn btn-secondary">Download Now</a>
             </div>
 
-            <div class="card flex-30">
-              <header>
+            <div class="card flex-30 md-flex-100">
+              <div class="price-header">
                 <p class="card-title">Premium</p>
                 <h2>$39</h2>
                 <p class="license">Extended License</p>
-              </header>
+              </div>
               <p class="includes">Includes:</p>
               <p>- Unlimited Site</p>
               <p>- Unlimited Storage</p>
@@ -144,7 +150,7 @@
           </div>
 
           <div class="faqs flex">
-            <div class="card flex-45">
+            <div class="card flex-45 md-flex-100">
               <h6>Can I use this template for commerical?</h6>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure,
@@ -153,7 +159,7 @@
               </p>
             </div>
 
-            <div class="card flex-45">
+            <div class="card flex-45 md-flex-100">
               <h6>How many license are there?</h6>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure,
@@ -162,7 +168,7 @@
               </p>
             </div>
 
-            <div class="card flex-45">
+            <div class="card flex-45 md-flex-100">
               <h6>Can I remove template backlink?</h6>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure,
@@ -171,7 +177,7 @@
               </p>
             </div>
 
-            <div class="card flex-45">
+            <div class="card flex-45 md-flex-100">
               <h6>Can I use for multiple clients?</h6>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure,
@@ -180,7 +186,7 @@
               </p>
             </div>
 
-            <div class="card flex-45">
+            <div class="card flex-45 md-flex-100">
               <h6>Do I get working contact form?</h6>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure,
@@ -189,7 +195,7 @@
               </p>
             </div>
 
-            <div class="card flex-45">
+            <div class="card flex-45 md-flex-100">
               <h6>How to make a payment?</h6>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure,
@@ -203,7 +209,7 @@
     </main>
     <footer>
       <div class="container flex">
-        <ul class="footer-heading">
+        <ul class="footer-heading flex-20 md-flex-100">
           <li><h6>Reach us</h6></li>
           <li>
             <a href="#"
@@ -223,7 +229,7 @@
           </li>
         </ul>
 
-        <ul class="footer-heading">
+        <ul class="footer-heading flex-20 md-flex-45">
           <li><h6>Site links</h6></li>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
@@ -232,7 +238,7 @@
           <li><a href="pricing.html">Pricing</a></li>
         </ul>
 
-        <ul class="footer-heading">
+        <ul class="footer-heading flex-20 md-flex-45">
           <li><h6>Qucik links</h6></li>
           <li><a href="#">Blog</a></li>
           <li><a href="contact.html">Contact Us</a></li>
@@ -240,7 +246,7 @@
           <li><a href="#">Terms & Conditions</a></li>
         </ul>
 
-        <ul class="footer-heading">
+        <ul class="footer-heading flex-20 md-flex-100">
           <li><h6>Follow us</h6></li>
           <li>
             <ul class="social-link-list flex">
