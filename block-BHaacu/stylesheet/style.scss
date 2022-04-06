@@ -1,0 +1,154 @@
+@import "variables";
+@import "reset";
+@import "general";
+@import "about";
+@import "pricing";
+@import "services";
+@import "contact";
+@import "mediaquery";
+
+// Header
+.header-contacts {
+  background: $primary;
+  padding: 1rem 0;
+  a {
+    color: #fff;
+    font-weight: 300;
+    &:hover {
+      color: $footer-primary;
+    }
+  }
+  .contact-list {
+    a {
+      margin-right: 2rem;
+    }
+  }
+}
+
+.navbar {
+  background: $secondary;
+  .logo {
+    color: $primary-text-color;
+    font-weight: 700;
+    font-size: 2rem;
+    span {
+      color: $primary;
+    }
+  }
+
+  .nav-list {
+    li {
+      margin-left: 2rem;
+      a {
+        color: $primary-text-color;
+        display: inline-block;
+        padding: 1.5rem 0.6rem;
+        width: 100%;
+        font-weight: 600;
+        &:hover {
+          background: $hover;
+          color: #fff;
+        }
+      }
+    }
+    .sub-menu-box {
+      position: relative;
+      &:hover {
+        .sub-menu {
+          display: inline-block;
+        }
+      }
+      i {
+        margin-left: 0.8rem;
+      }
+    }
+    .sub-menu {
+      position: absolute;
+      top: 100%;
+      left: 0%;
+      width: 140px;
+      display: none;
+      background: $secondary;
+      li {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.hero {
+  background: url(../assets/media/banner-1.jpg) no-repeat;
+  background-position: right center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $primary-text-color;
+  p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: $primary-text-color;
+    text-transform: capitalize;
+  }
+}
+
+.solutions {
+  background: $secondary;
+  .title {
+    max-width: 730px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  h2 {
+    margin-bottom: 1rem;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+.team {
+  article {
+    text-align: center;
+    padding: 1rem 3.5rem;
+    img {
+      width: 50px;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.quote {
+  background: $primary;
+  padding: 4rem 0;
+  line-height: 1.1;
+  color: #fff;
+  .quote-div p {
+    color: #fff;
+  }
+}
+
+.leader {
+  padding-top: 6rem;
+  article {
+    padding: 1rem 3.5rem;
+    h3 {
+      text-transform: none;
+    }
+  }
+}
+
+.clients {
+  background: $secondary;
+  .client-img-container {
+    img {
+      max-width: 130px;
+      width: 100%;
+      filter: grayscale(1);
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+  }
+}

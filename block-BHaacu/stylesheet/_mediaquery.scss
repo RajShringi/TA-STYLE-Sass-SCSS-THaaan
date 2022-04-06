@@ -1,0 +1,144 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 720px;
+  }
+  header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+  }
+  .header-contacts {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+  .navbar {
+    height: 9rem;
+    width: 100%;
+  }
+  nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background: rgba(220, 60, 69, 0.9);
+    .nav-list {
+      flex-direction: column;
+      padding-top: 7rem;
+      font-size: 1.3rem;
+      .sub-menu {
+        z-index: 1;
+      }
+    }
+  }
+  input[type="checkbox"]:checked ~ nav {
+    display: block;
+  }
+
+  .bars {
+    display: inline-block;
+    background-color: rgba($color: $primary, $alpha: 0.8);
+    color: #fff;
+    padding: 0.2rem 0.6rem;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    position: fixed;
+    right: 2rem;
+    top: 5rem;
+    z-index: 99;
+  }
+  .logo {
+    position: fixed;
+    z-index: 99;
+    left: 2rem;
+    top: 5rem;
+  }
+
+  .hero {
+    background-position: 70% !important;
+  }
+  .md-flex-100 {
+    flex: 0 1 100%;
+    margin-bottom: 1.5rem;
+  }
+  .md-flex-45 {
+    flex: 0 1 45%;
+    margin-bottom: 1.5rem;
+  }
+  .none {
+    display: none;
+  }
+
+  .clients {
+    .client-img-container {
+      text-align: center;
+      img {
+        max-width: 80px !important;
+        width: 100%;
+      }
+    }
+  }
+
+  .footer-heading {
+    .social-link-list {
+      justify-content: flex-start;
+    }
+  }
+
+  .other-page-hero {
+    padding-top: 12rem;
+  }
+
+  //services
+  .deals {
+    .flex {
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+  .container {
+    max-width: 540px;
+  }
+  .navbar {
+    height: 10rem;
+  }
+  .header-contacts {
+    .flex {
+      justify-content: center;
+    }
+    .social-link-list a,
+    .contact-list a {
+      margin: 0 1rem;
+    }
+  }
+  .bars,
+  .logo {
+    top: 6.5rem;
+  }
+}
