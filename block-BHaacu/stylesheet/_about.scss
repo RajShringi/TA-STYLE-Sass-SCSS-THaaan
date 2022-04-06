@@ -1,0 +1,43 @@
+.company-vision-section {
+  i {
+    font-size: 3rem;
+    color: $footer-primary;
+    &:hover {
+      color: $hover;
+    }
+  }
+  .company-vision-div {
+    margin-bottom: 1rem;
+    h6 {
+      font-weight: 400;
+      margin-bottom: 0;
+      color: $primary-text-color;
+    }
+  }
+}
+
+.about-team {
+  background: $secondary;
+  .team-member {
+    text-align: center;
+    box-shadow: 0 0 4px rgba($color: #000000, $alpha: 0.1);
+    p {
+      color: $primary-text-color;
+    }
+    .role {
+      color: $primary;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.about-solution {
+  .title {
+    max-width: 730px;
+    width: 100%;
+    margin: 0 auto;
+    h2 {
+      margin-bottom: 2rem;
+    }
+  }
+}
